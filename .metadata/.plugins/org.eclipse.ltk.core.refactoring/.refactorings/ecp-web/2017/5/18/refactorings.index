@@ -1,0 +1,57 @@
+1493792960771	Copy file
+1493792989802	Move 'home.jsp' to 'front'
+1493793238421	Rename resource 'index.jsp'
+1493888991226	Rename resource 'NewFile.html'
+1493901420071	Rename resource 'hello.html'
+1493901768615	Move 'themyleaf' to 'webapp'
+1493904896611	Rename resource 'hello.HTML'
+1493908625536	Rename resource 'themyleaf'
+1493910502009	Move 'thymeleaf' to 'pages'
+1493910699259	Delete element
+1493915840608	Rename resource 'hello_zh_CN.properties'
+1493916059747	Rename resource 'hello.properties'
+1493918889145	Rename resource 'hello_zh_CN.properties'
+1493920428295	Rename resource 'hello.properties'
+1493921205939	Rename resource 'hello_zh_CN.properties'
+1493921444006	Rename resource 'hello.properties'
+1493921808959	Move 'hello_zh_CN.properties' to 'messages'
+1493921824826	Rename resource 'hello_zh_CN.properties'
+1493922377183	Move 'messages' to 'resources'
+1493922618240	Delete element
+1493922659988	Rename resource 'hello_zh_CN.properties'
+1493947535114	Copy file
+1493947560507	Rename resource 'message_zh_CN.properties'
+1493950082433	Delete element
+1493969333245	Copy file
+1493969466647	Rename resource 'index1.jsp'
+1493974904111	Rename resource 'main.html'
+1493978685322	Delete element
+1493978851464	Copy compilation unit
+1493980856046	Rename type 'UserRegisterController'
+1493994753952	Copy compilation unit
+1493999535009	Move 4 resources to 'back'
+1493999689406	Copy files
+1494000157825	Copy compilation unit
+1494000177057	Copy compilation unit
+1494000218451	Copy compilation unit
+1494000266685	Copy compilation unit
+1494000292034	Delete element
+1494000298732	Delete element
+1494000305499	Delete element
+1494000311000	Delete element
+1494004003762	Move 'home.html' to 'thymeleaf'
+1494004079412	Move 'home.html' to 'front'
+1494006806703	Rename field 'userService'
+1494048315835	Rename resource 'public'
+1494048326897	Move 'footer.html' to 'pagemodule'
+1494048433461	Rename resource 'pagemodule'
+1494048530322	Move 'header.html' to 'public'
+1494048537255	Move 'category.html' to 'public'
+1494048548449	Move 'product.html' to 'public'
+1494051591759	Move 'home.css' to 'front'
+1494052572237	Move 'home.css' to 'pages'
+1494052901984	Move 'home.css' to 'css'
+1494060731939	Rename resource 'commentlist.html'
+1494060897491	Copy file
+1494060903948	Delete element
+1494078165838	Copy compilation unit

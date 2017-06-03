@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Sat Jun 03 10:06:31 CST 2017
+org.eclipse.jst.j2ee.server\:ecp-common=WEB-INF/lib/ecp-common-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:ecp-dao=WEB-INF/lib/ecp-dao-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:G\:\\javadev\\maven\\org\\springframework\\spring-web\\4.0.0.RELEASE\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
+org.eclipse.jst.j2ee.server\:ecp-service=WEB-INF/lib/ecp-service-0.0.1-SNAPSHOT.jar

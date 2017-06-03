@@ -1,0 +1,9 @@
+package com.donglicms.bean;
+
+public class CategoryBrandBean {
+	private long brand_id;
+	private long second_lev_id;
+	private long third_lev_id;
+	private String brand_logo_url;
+	
+}

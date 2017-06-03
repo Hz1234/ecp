@@ -1,0 +1,31 @@
+package com.donglicms.service.impl.front;
+
+import org.springframework.stereotype.Service;
+
+import com.donglicms.dao.OrderItemsMapper;
+import com.donglicms.dao.OrdersMapper;
+import com.donglicms.entity.OrderItems;
+import com.donglicms.service.front.IOrderItemService;
+import com.donglicms.service.impl.AbstractBaseService;
+
+@Service
+public class OrderItemServiceImpl extends AbstractBaseService<OrderItems, Long> implements IOrderItemService {
+	
+	OrderItemsMapper orderItemsMapper; 
+	
+	/**
+	 * @param mapper
+	 * the mapper to set set方式注入
+	 */	
+	public void setOrdersMapper(OrdersMapper ordersMapper) { 
+		this.ordersMapper=ordersMapper;
+		this.setMapper(ordersMapper);
+	}
+
+	
+
+	
+	
+	
+
+}

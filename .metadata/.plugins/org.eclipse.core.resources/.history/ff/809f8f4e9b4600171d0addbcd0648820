@@ -1,0 +1,41 @@
+package com.donglicms.service.impl.front;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import com.donglicms.dao.CategoryBrandMapper;
+import com.donglicms.entity.CategoryBrand;
+import com.donglicms.service.front.ICategoryBrandService;
+import com.donglicms.service.impl.AbstractBaseService;
+
+@Service
+public class CategoryBrandImpl extends AbstractBaseService<CategoryBrand, Long> implements ICategoryBrandService {
+	
+	CategoryBrandMapper categoryBrandMapper;
+	/**
+	 * @param mapper
+	 * the mapper to set set方式注入
+	 */	
+	public void setCategoryBrandMapper(CategoryBrandMapper categoryBrandMapper) {
+		this.categoryBrandMapper=categoryBrandMapper;
+		this.setMapper(categoryBrandMapper);
+	}
+	@Override
+	public List<Map<String, String>> getBrandByCid(Long cid) {
+		return categoryBrandMapper.getBrandByCid(cid);		
+	}
+	
+	@Override
+	public List<Map<String, String>> getCategoryByBrand(String brands) {
+				
+	}
+	
+	
+
+	
+	
+	
+
+}

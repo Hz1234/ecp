@@ -1,0 +1,14 @@
+package com.donglicms.bean;
+
+public class CartItemBean {
+	private long itemId;
+	private long skuId;
+	
+	private String skuName;
+	private String skuPicture;
+	private BigDecimal skuPrice;
+	private BigDecimal skuWeight;
+	private int quantity;
+	
+	
+}

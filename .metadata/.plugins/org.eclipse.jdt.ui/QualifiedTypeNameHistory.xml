@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.test.web.servlet.MockMvc"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="com.donglicms.entity.Agent"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="com.donglicms.entity.Order"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.JSONObject"/>
+<fullyQualifiedTypeName name="com.donglicms.dao.CategoryAttrMapper"/>
+<fullyQualifiedTypeName name="com.donglicms.entity.ItemPicture"/>
+<fullyQualifiedTypeName name="com.donglicms.bean.SearchCondBean"/>
+<fullyQualifiedTypeName name="com.donglicms.bean.AttributeType"/>
+<fullyQualifiedTypeName name="com.donglicms.bean.SkuType"/>
+<fullyQualifiedTypeName name="javax.websocket.Session"/>
+<fullyQualifiedTypeName name="com.donglicms.entity.Item"/>
+<fullyQualifiedTypeName name="com.donglicms.entity.Attribute"/>
+<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang.time.DateFormatUtils"/>
+<fullyQualifiedTypeName name="com.donglicms.common.util.IdGenerator"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.donglicms.common.util.OrderIdGenerator"/>
+<fullyQualifiedTypeName name="com.donglicms.service.IdGenerator"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="com.donglicms.entity.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.donglicms.entity.Category"/>
+<fullyQualifiedTypeName name="com.donglicms.service.front.IBrandService"/>
+</qualifiedTypeNameHistroy>

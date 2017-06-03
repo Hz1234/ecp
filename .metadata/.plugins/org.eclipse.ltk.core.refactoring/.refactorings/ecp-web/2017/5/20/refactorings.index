@@ -1,0 +1,40 @@
+1494985349259	Rename resource 'home.html'
+1494986799152	Move 'index.html' to 'front'
+1494987830764	Copy file
+1494995673115	Copy file
+1494996154422	Delete element
+1494996163629	Copy file
+1495011446229	Copy file
+1495091833678	Copy file
+1495091840706	Delete element
+1495106936759	Copy file
+1495107085827	Copy file
+1495107829969	Rename resource 'categoryattr.html'
+1495173247358	Copy file
+1495209786413	Copy file
+1495286132119	Copy compilation unit
+1495286533630	Rename type 'CollectionController'
+1495286660963	Rename type 'AgentEntryController'
+1495289017043	Rename type 'UserEntryController'
+1495296811277	Rename resource 'collection.html'
+1495296926170	Rename resource 'category.html'
+1495296939878	Rename resource 'category3.html'
+1495296956865	Rename resource 'category2.html'
+1495297059344	Rename resource 'layout_bootstrap2.html'
+1495298028468	Copy compilation unit
+1495298048295	Rename type 'UserOrderController'
+1495298564536	Rename resource 'personalcentercollections.html'
+1495298585174	Rename resource 'personalcenterorders.html'
+1495298710205	Rename type 'ProductSearchController'
+1495299390838	Rename resource 'categoryproduct.html'
+1495299650807	Rename resource 'productdetail.html'
+1495299683229	Rename resource 'productlist.html'
+1495299705975	Rename resource 'productlist_not_user.html'
+1495300615902	Delete element
+1495300645688	Rename resource 'userfavourite.html'
+1495300656125	Rename resource 'userorders.html'
+1495300850479	Rename resource 'searchresult.html'
+1495301013133	Rename resource 'cart.html'
+1495301046175	Rename resource 'user_cart.html'
+1495301106351	Rename resource 'user_favourites.html'
+1495301117256	Rename resource 'user_orders.html'

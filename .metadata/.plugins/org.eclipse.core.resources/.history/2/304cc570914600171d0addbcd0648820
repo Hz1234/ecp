@@ -1,0 +1,32 @@
+package com.donglicms.service.impl.front;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.donglicms.dao.BrandMapper;
+import com.donglicms.dao.FavouriteMapper;
+import com.donglicms.entity.Brand;
+import com.donglicms.entity.Favourite;
+import com.donglicms.service.front.ICartService;
+import com.donglicms.service.impl.AbstractBaseService;
+
+@Service
+public class BrandServiceImpl extends AbstractBaseService<Brand, Long> implements ICartService {
+	
+	BrandMapper brandMapper;
+	
+	/**
+	 * @param mapper
+	 * the mapper to set set方式注入
+	 */	
+	public void setFavouriteMapper(BrandMapper brandMapper) { 
+		this.brandMapper=brandMapper;
+		this.setMapper(brandMapper);
+	}	
+
+	
+	
+
+}

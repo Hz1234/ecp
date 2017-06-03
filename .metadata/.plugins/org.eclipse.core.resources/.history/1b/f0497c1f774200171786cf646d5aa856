@@ -1,0 +1,54 @@
+package com.donglicms.service.impl.front;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.donglicms.bean.SkuPriceBean;
+import com.donglicms.dao.FavouriteMapper;
+import com.donglicms.dao.SkuMapper;
+import com.donglicms.entity.Favourite;
+import com.donglicms.service.front.ICartService;
+import com.donglicms.service.impl.AbstractBaseService;
+
+@Service
+public class FavouriteServiceImpl extends AbstractBaseService<Favourite, Long> implements ICartService {
+	
+	FavouriteMapper favouriteMapper;
+	
+	/**
+	 * @param mapper
+	 * the mapper to set set方式注入
+	 */	
+	public void setFavouriteMapper(FavouriteMapper favouriteMapper) { 
+		this.favouriteMapper=favouriteMapper;
+		this.setMapper(favouriteMapper);
+	}	
+
+	@Override
+	public void addToCart(int itemId, int skuId, int quantity, int userId) {
+		//favouriteMapper.
+		/**
+		 (1)自购物车查询，如不存在，则直接插入
+		 (2)如果已经存在，则进行更新。（status=1）
+		 */
+		Favourite record=new Favourite();
+		record.setItemId(itemId);
+		record.setSkuId(skuId);		
+		record.setUserId(userId);
+		record.setStatus((byte)1);
+		Favourite favourite=favouriteMapper.selectOne(record);
+		if(favourite==null){
+			record.setQuantity(quantity);			
+			favouriteMapper.insert(record);
+		}
+		else{
+			//record.setQuantity(record.getquantity);
+			int id=favourite.getId();
+			favouriteMapper.addQuqntityById(id, quantity);
+		}
+		
+	}		
+	
+
+}

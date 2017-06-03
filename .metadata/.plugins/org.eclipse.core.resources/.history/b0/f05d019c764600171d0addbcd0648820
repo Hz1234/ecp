@@ -1,0 +1,17 @@
+package com.donglicms.dao;
+
+import java.util.List;
+
+import com.donglicms.entity.Category;
+import tk.mybatis.mapper.common.Mapper;
+
+public interface CategoryMapper extends Mapper<Category> {
+	
+	/**
+	 * @Description 通过关键字查询类目
+	 * @param keywords 关键字列表
+	 * @return
+	 */
+	public List<Category> getCategoryByKeywords(List<String> keywords);
+	
+}

@@ -1,0 +1,16 @@
+package com.donglicms.bean;
+
+import java.math.BigDecimal;
+
+public class CartItemBean {
+	private long itemId;
+	private long skuId;
+	
+	private String skuName;
+	private String skuPicture;
+	private BigDecimal skuPrice;
+	private BigDecimal skuWeight;
+	private int quantity;
+	
+	
+}

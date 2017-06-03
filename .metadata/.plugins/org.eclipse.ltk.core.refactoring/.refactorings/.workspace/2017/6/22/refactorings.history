@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ecp/ecp-back&apos;" deleteContents="false" description="Delete resource &apos;ecp/ecp-back&apos;" element1="/ecp/ecp-back" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1496455202653"/>&#x0A;<refactoring comment="Delete resource &apos;ecp-back&apos;" deleteContents="false" description="Delete resource &apos;ecp-back&apos;" element1="/ecp-back" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1496455459705"/>
+</session>

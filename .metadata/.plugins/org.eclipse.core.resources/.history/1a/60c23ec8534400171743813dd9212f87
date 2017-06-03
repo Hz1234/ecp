@@ -1,0 +1,15 @@
+package com.donglicms.bean;
+
+import java.math.BigDecimal;
+
+public class OrderItemBean {
+	private long id;
+	private String orderId;
+	private long cid;
+	private long itemId;
+	private long skuId;
+	private String skuName;
+	private BigDecimal payPrice;
+	private int num;
+	
+}

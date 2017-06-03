@@ -1,0 +1,5 @@
+package com.donglicms.bean;
+
+public class FavouriteStatisticBean {
+
+}

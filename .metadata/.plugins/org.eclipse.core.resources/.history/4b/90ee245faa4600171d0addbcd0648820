@@ -1,0 +1,44 @@
+package com.donglicms.bean;
+
+public class CategoryBrandBean {
+	private long brand_id;
+	private long second_lev_id;
+	private long third_lev_id;
+	private String brand_logo_url;
+	private String brand_namd;
+	public long getBrand_id() {
+		return brand_id;
+	}
+	public void setBrand_id(long brand_id) {
+		this.brand_id = brand_id;
+	}
+	public long getSecond_lev_id() {
+		return second_lev_id;
+	}
+	public void setSecond_lev_id(long second_lev_id) {
+		this.second_lev_id = second_lev_id;
+	}
+	public long getThird_lev_id() {
+		return third_lev_id;
+	}
+	public void setThird_lev_id(long third_lev_id) {
+		this.third_lev_id = third_lev_id;
+	}
+	public String getBrand_logo_url() {
+		return brand_logo_url;
+	}
+	public void setBrand_logo_url(String brand_logo_url) {
+		this.brand_logo_url = brand_logo_url;
+	}
+	public String getBrand_namd() {
+		return brand_namd;
+	}
+	public void setBrand_namd(String brand_namd) {
+		this.brand_namd = brand_namd;
+	}
+	
+	
+	
+	
+	
+}

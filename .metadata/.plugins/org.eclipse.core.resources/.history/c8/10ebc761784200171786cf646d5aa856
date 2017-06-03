@@ -1,0 +1,50 @@
+package com.donglicms.web.front;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.alibaba.fastjson.JSONObject;
+
+
+/**
+ * @ClassName FavouriteController
+ * @Description  用户关注-控制器
+ * @author Administrator
+ * @Date 2017年5月5日 下午4:34:20
+ * @version 1.0.0
+ */
+@Controller
+@RequestMapping("/front/favourite")
+public class FavouriteController {
+	final String RESPONSE_THYMELEAF="thymeleaf/front/";
+	final String RESPONSE_JSP="jsps/front/";	
+	
+	
+	/**
+	 * @Description 商品加入购物车
+	 * @param productId
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value="/add" ,method=RequestMethod.POST)
+	@ResponseBody
+	public Object addProductToCollection(int itemId, Model model){		
+		
+		//System.out.println("itemid is :"+itemId);
+		
+		
+		JSONObject jsonObject = new JSONObject();
+		jsonObject.put("message", "added");
+		jsonObject.put("status", "success");
+		
+		
+		return jsonObject;
+	}
+	
+	
+	
+
+}

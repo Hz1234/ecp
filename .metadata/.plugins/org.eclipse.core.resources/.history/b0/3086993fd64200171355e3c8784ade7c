@@ -1,0 +1,12 @@
+package com.donglicms.bean;
+
+import java.math.BigDecimal;
+
+public class FavouriteBean {
+	private int id;
+	private int itemId;
+	private String itemName;
+	private BigDecimal sellPrice;
+	private String pictureUrl;
+	
+}

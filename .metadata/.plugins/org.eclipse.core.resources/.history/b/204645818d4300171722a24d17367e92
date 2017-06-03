@@ -1,0 +1,12 @@
+package com.donglicms.service.front;
+
+import java.util.List;
+
+import com.donglicms.entity.Favourite;
+import com.donglicms.service.IBaseService;
+
+public interface IOrderService extends IBaseService<Orders, Long> {	
+	
+	
+	
+}

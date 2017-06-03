@@ -1,0 +1,12 @@
+package com.donglicms.bean;
+
+import java.math.BigDecimal;
+
+public class AddSkuToOrderBean {
+	private long cid;
+	private long itemId;
+	private long skuId;
+	private String skuName;
+	private BigDecimal skuPrice;
+	private int skuNum;
+}

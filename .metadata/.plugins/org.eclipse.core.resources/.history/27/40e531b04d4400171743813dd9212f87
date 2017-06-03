@@ -1,0 +1,20 @@
+package com.donglicms.service.front;
+
+import java.util.List;
+
+import com.donglicms.entity.Orders;
+import com.donglicms.service.IBaseService;
+
+public interface IOrderService extends IBaseService<Orders, Long> {
+	/**
+	 * @Description 生成新订单
+	 * @param buyerId  买家ID
+	 * @param buyerName 买家姓名
+	 * @param orderId  订单号
+	 */
+	public void createNewOrder(long buyerId,String buyerName,String orderId);
+	
+	public List<Orders>  selectOrderByUserId(long buyerId);
+	
+	
+}

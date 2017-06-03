@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.donglicms.dao.UserFavoriteMapper" >
+  <resultMap id="BaseResultMap" type="com.donglicms.entity.UserFavorite" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+    <result column="favorite_id" property="favoriteId" jdbcType="BIGINT" />
+    <result column="id_type" property="idType" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="TINYINT" />
+    <result column="user_id" property="userId" jdbcType="BIGINT" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    id, add_time, favorite_id, id_type, status, user_id
+  </sql>
+  
+  <select id="getFavouritesByUserId" resultMap="">  
+  </select>
+  
+  
+  
+  
+  
+</mapper>

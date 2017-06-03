@@ -1,0 +1,11 @@
+package com.donglicms.service.front;
+
+import com.donglicms.entity.AttributeValue;
+import com.donglicms.service.IBaseService;
+
+public interface IAttrValueService extends IBaseService<AttributeValue, Long> {	
+	
+	
+	public AttributeValue getAttributeValueNameById(long attrId,long valueId);
+	
+}

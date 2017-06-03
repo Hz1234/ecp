@@ -1,0 +1,37 @@
+package com.donglicms.service.front;
+
+import java.util.List;
+
+import com.donglicms.bean.CategoryAttrBean;
+import com.donglicms.bean.CategoryTreeNode;
+import com.donglicms.entity.Category;
+import com.donglicms.entity.Item;
+import com.donglicms.service.IBaseService;
+
+public interface IItemService extends IBaseService<Item, Long> {	
+	
+	/**
+	 * @Description 查询SPU
+	 * @param brand  
+	 * @param attrValPairs 
+	 * @return 返回商品列表
+	 */
+	/**
+	 * @Description (TODO这里用一句话描述这个方法的作用)
+	 * @param cid
+	 * @param brands 品牌列表 brand_id
+	 * @param attrValPairs attr_id:val_id
+	 * @return
+	 */
+	public List<Item> getItemByBrandAndAttr(Long cid,List<Long> brands,List<String> attrValPairs);
+	
+	/**
+	 * @Description 根据item id 读取一个SPU
+	 * @param itemId
+	 * @return
+	 */
+	public Item getItemById(Long itemId);
+	
+	
+	
+}

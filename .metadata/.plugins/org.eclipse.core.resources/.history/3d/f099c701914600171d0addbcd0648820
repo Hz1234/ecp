@@ -1,0 +1,12 @@
+package com.donglicms.service.front;
+
+import java.util.List;
+
+import com.donglicms.service.IBaseService;
+
+public interface IBrandService extends IBaseService<Brands, Long> {	
+	
+	
+	public List<Brands> getBrandByKeywords(List<String> keywords);
+	
+}

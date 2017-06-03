@@ -1,0 +1,10 @@
+package com.donglicms.service.front;
+
+import com.donglicms.entity.Orders;
+import com.donglicms.service.IBaseService;
+
+public interface IOrderService extends IBaseService<Orders, Long> {	
+	
+	
+	
+}

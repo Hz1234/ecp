@@ -1,0 +1,59 @@
+package com.donglicms.bean;
+
+import java.math.BigDecimal;
+
+public class CartItemBean {
+	private long itemId;  //spu id
+	private long skuId;   //sku id
+	
+	private String skuName;  //item name 与 sku attribute值 合成的名字
+	private String skuPicture;  //sku图片
+	private BigDecimal skuPrice; //sku单价
+	private BigDecimal skuWeight;  //sku单重
+	private int quantity;  //sku数量
+	
+	public long getItemId() {
+		return itemId;
+	}
+	public void setItemId(long itemId) {
+		this.itemId = itemId;
+	}
+	public long getSkuId() {
+		return skuId;
+	}
+	public void setSkuId(long skuId) {
+		this.skuId = skuId;
+	}
+	public String getSkuName() {
+		return skuName;
+	}
+	public void setSkuName(String skuName) {
+		this.skuName = skuName;
+	}
+	public String getSkuPicture() {
+		return skuPicture;
+	}
+	public void setSkuPicture(String skuPicture) {
+		this.skuPicture = skuPicture;
+	}
+	public BigDecimal getSkuPrice() {
+		return skuPrice;
+	}
+	public void setSkuPrice(BigDecimal skuPrice) {
+		this.skuPrice = skuPrice;
+	}
+	public BigDecimal getSkuWeight() {
+		return skuWeight;
+	}
+	public void setSkuWeight(BigDecimal skuWeight) {
+		this.skuWeight = skuWeight;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	
+	
+}
